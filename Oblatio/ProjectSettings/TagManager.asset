@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Animal
+  - Rabbit
+  - Cat
+  - Dog
+  - Sheep
+  - Cow
+  - Horse
+  - Tiger
+  - EatingEffect
   layers:
   - Default
   - TransparentFX
@@ -14,7 +23,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Rabbit
   - 
   - 
   - 

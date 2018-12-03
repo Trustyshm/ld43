@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ec85d8c3c9281241a6b0510e9f8861a, type: 3}
+  m_Name: Lettuce
+  m_EditorClassIdentifier: 
+  name: Lettuce
+  icon: {fileID: 21300000, guid: 8652356ae59ca014789b775c72afed8d, type: 3}
+  carrotEat: {fileID: 1082419426635392, guid: d020a4a511776e1409a6f11a741fcb0b, type: 2}
+  hayEat: {fileID: 1256825123167888, guid: ceac40ff0717c5540954ae49e9602d8d, type: 2}
+  lettuceEat: {fileID: 1569378311625656, guid: a37cd286c7dd152488a327b3b22a570c, type: 2}
+  mouseEat: {fileID: 1521204197189258, guid: 70f768b3be6ec9240bc27e8f29f58ff3, type: 2}
+  rabbits:
+  - {fileID: 0}
+  cats: []
+  dogs: []
+  sheeps: []
+  cows: []
+  horses: []
+  tigers: []
+  player: {fileID: 0}
+  animalFood: 1
+  feedToRabbit: 1
+  feedToCat: 0
+  feedToDog: 0
+  feedToSheep: 0
+  feedToCow: 0
+  feedToHorse: 1
+  feedToTiger: 0
+  isLettuce: 1
+  isCarrot: 0
+  isHay: 0
+  isMouse: 0

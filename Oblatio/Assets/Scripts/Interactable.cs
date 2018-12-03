@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Interactable : MonoBehaviour {
 
-    public float radius = 500f;
     public Item item;
     public Transform player;
     public Camera cam;
+   // private GameObject prompt;
  
     
 
@@ -19,8 +20,8 @@ public class Interactable : MonoBehaviour {
             if (distances <= 2)
             {
                 PickUp();
-                Debug.Log("within");
-            }          
+            }
+           
         }
        
     }
@@ -36,9 +37,5 @@ public class Interactable : MonoBehaviour {
         
     }
 
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, radius);
-    }
+
 }

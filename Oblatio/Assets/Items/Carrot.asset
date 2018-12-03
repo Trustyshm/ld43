@@ -12,11 +12,28 @@ MonoBehaviour:
   m_Name: Carrot
   m_EditorClassIdentifier: 
   name: Carrot
-  icon: {fileID: 21300000, guid: e5a43936918b7d64a82e9ecf2f0a2281, type: 3}
+  icon: {fileID: 21300002, guid: d2f6df1f5d77e204b96374b738cdc4ea, type: 3}
+  carrotEat: {fileID: 1082419426635392, guid: d020a4a511776e1409a6f11a741fcb0b, type: 2}
+  hayEat: {fileID: 1256825123167888, guid: ceac40ff0717c5540954ae49e9602d8d, type: 2}
+  lettuceEat: {fileID: 1569378311625656, guid: a37cd286c7dd152488a327b3b22a570c, type: 2}
+  mouseEat: {fileID: 1521204197189258, guid: 70f768b3be6ec9240bc27e8f29f58ff3, type: 2}
+  rabbits: []
+  cats: []
+  dogs: []
+  sheeps: []
+  cows: []
+  horses: []
+  tigers: []
+  player: {fileID: 0}
+  animalFood: 1
   feedToRabbit: 1
   feedToCat: 0
   feedToDog: 0
-  feedToSheep: 0
+  feedToSheep: 1
   feedToCow: 0
-  feedToHorse: 1
+  feedToHorse: 0
   feedToTiger: 0
+  isLettuce: 0
+  isCarrot: 1
+  isHay: 0
+  isMouse: 0

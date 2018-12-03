@@ -28,10 +28,12 @@ public class InventorySlot : MonoBehaviour {
 
     public void OnRemoveButton()
     {
-        Instantiate(item, player.transform);
-        Debug.Log(item);
-        InventoryManager.instance.Remove(item);
-       // GameObject replaceItem = Instantiate(item, player.transform);
+        if (InventoryManager.instance.items.Contains(item) != false)
+        {
+            Debug.Log(item);
+            InventoryManager.instance.Remove(item);
+        }
+        
     }
 
     public void UseItem()
